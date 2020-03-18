@@ -6,6 +6,8 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.junit.Assert;
 
+import Reporting.Log;
+
 import java.io.IOException;
 import java.util.HashMap;
 import static io.restassured.RestAssured.given;
@@ -13,20 +15,20 @@ import static org.hamcrest.Matchers.*;
 
 public class BDDStyleMethod {
 
-
-
-
     public static HashMap map = new HashMap();
     public static  String  placeId;
     public static String  keyVal;
 
 
+
     public static void setQueryParameters() throws IOException {
         RestAssured.baseURI= ReUsableMethods.loadPropertiesFile("baseURI");
-        keyVal = ReUsableMethods.loadPropertiesFile("key");;
+        keyVal = ReUsableMethods.loadPropertiesFile("key");
+        Log.info("The Query Parameters are set" + ":"  + RestAssured.baseURI +keyVal );
     }
 
     public static void getData() throws IOException {
+        Log.info("GETTING THE JSON FILE");
         given().log().all().queryParam("key", keyVal)
                 .when().get(RestAssured.baseURI+ReUsableMethods.loadPropertiesFile("getBasePath"))
                 .then().log().all();
@@ -36,6 +38,7 @@ public class BDDStyleMethod {
         given().log().all().queryParam("key", keyVal)
                 .when().get(RestAssured.baseURI+RestAssured.basePath)
                 .then().assertThat().log().all().statusCode(200);
+        Log.info("Verified the status code" + val);
     }
 
 
@@ -48,6 +51,7 @@ public class BDDStyleMethod {
                 .then().log().all().assertThat().statusCode(200).body("scope", equalTo("APP")).extract().response().asString();
         JsonPath js=new JsonPath(response);
         placeId  =js.getString("place_id");
+        Log.info("Posted New Address in Google Map API");
 
     }
 
@@ -79,6 +83,25 @@ public class BDDStyleMethod {
 
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     ///////////////////////////////*************************///////////////////////////////////////////////////
     public static void SimpleGetPost(String ListNumber, String attributeName, String attributeVal) {
         given()

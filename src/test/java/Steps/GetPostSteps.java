@@ -1,32 +1,21 @@
 package Steps;
 
-import Utilities.RestAssuredExtention;
-import cucumber.api.PendingException;
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import io.restassured.response.ResponseOptions;
-import org.junit.Assert;
-
 import java.io.IOException;
-import java.util.HashMap;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
-
-public class GetPostSteps {
+public class GetPostSteps extends  RestUtils {
 
     private static ResponseOptions<Response> response;
 
 
     @Given("^User set the Query Parameters for the service API$")
-    public void userSetTheQueryParametersForTheServiceAPI() throws IOException {
+    public void userSetTheQueryParametersForTheServiceAPI() throws IOException, ClassNotFoundException {
         BDDStyleMethod.setQueryParameters();
     }
 

@@ -1,8 +1,12 @@
 package Steps;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import files.ReUsableMethods;
 import org.apache.commons.lang3.RandomStringUtils;
 
-public class RestUtils {
+public class RestUtils extends ReUsableMethods {
 
     public static String AddPlace()
 
@@ -45,5 +49,22 @@ public class RestUtils {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
         return("1"+generatedString);
 
+    }
+
+String fileName = reportLocation+"extentReport.html";
+    public void ExtentReport()
+    {
+        extent=new ExtentReports();
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
+        htmlReporter.config().setTheme(Theme.DARK);
+        htmlReporter.config().setDocumentTitle("API Testing");
+        htmlReporter.config().setEncoding("utf-8");
+        htmlReporter.config().setReportName("Sapient");
+        extent.attachReporter(htmlReporter);
+    }
+
+    public void FlushReport()
+    {
+       extent.flush();
     }
     }

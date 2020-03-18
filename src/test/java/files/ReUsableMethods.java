@@ -1,5 +1,8 @@
 package files;
 
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import io.restassured.path.json.JsonPath;
 
 import java.io.FileNotFoundException;
@@ -9,6 +12,10 @@ import java.util.Properties;
 
 public class ReUsableMethods {
 
+public ExtentReports extent;
+public static ExtentTest scenarioDef;
+public static ExtentTest features;
+public static  String reportLocation = "C:/Users/jerjose/Documents/RestAssured_Demo/";
 	
 	public static JsonPath rawToJson(String response)
 	{
