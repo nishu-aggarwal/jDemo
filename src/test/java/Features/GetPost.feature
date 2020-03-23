@@ -23,6 +23,7 @@ Feature: GET: Automated Demo Tests
 
 
        #Updating the URL with the Place Name of the Google Map API Request
+  
   @get
   Scenario Outline:  Updating by changing the address details in Google Map API and verifying new changed address
     Given User set the Query Parameters for the service API

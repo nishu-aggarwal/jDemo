@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="641ad553-0b76-4da7-96bd-f19311719a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_2_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_2_3_1.xml" beforeDir="false" />
@@ -19,30 +12,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_jvm_deps_1_0_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAssured_Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssured_Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/output/html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/GetPost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/GetPost.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BDDStyleMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BDDStyleMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/GetPostSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/GetPostSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/RestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/files/ReUsableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/ReUsableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/StepDefinitionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/cucumber_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cucumber_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +44,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YpTvQ6jrlSVIk6ZiferEXn8Rjf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -242,15 +228,15 @@
     <state x="420" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1584441600938" />
     <state x="551" y="388" key="Maven.ArtifactSearchDialog/0.23.1792.1041@0.23.1792.1041" timestamp="1583642298042" />
     <state x="552" y="389" key="Maven.ArtifactSearchDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1583641704093" />
-    <state x="352" y="13" key="SettingsEditor" timestamp="1584447270927">
+    <state x="352" y="13" key="SettingsEditor" timestamp="1584682591518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="352" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584447270927" />
+    <state x="352" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584682591518" />
     <state x="462" y="113" key="SettingsEditor/0.23.1792.1041@0.23.1792.1041" timestamp="1583642680814" />
-    <state x="437" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584525532882">
+    <state x="437" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584682629600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584525532882" />
+    <state x="437" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584682629600" />
     <state x="573" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1583819448104" />
     <state x="678" y="432" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583642630415">
       <screen x="0" y="23" width="1792" height="1041" />
@@ -266,6 +252,10 @@
     </state>
     <state width="617" height="424" key="javadoc.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1583822026368" />
     <state width="600" height="424" key="javadoc.popup/0.23.1792.1034@0.23.1792.1034" timestamp="1583645020825" />
+    <state x="65" y="0" key="new project wizard" timestamp="1584688099258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584688099258" />
     <state x="786" y="490" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583641933243">
       <screen x="0" y="23" width="1792" height="1041" />
     </state>
